@@ -16,7 +16,7 @@ const Login = () => {
     try {
       dispatch(showLoading());
       const res = await axios.post(
-        "https://pgagi-analytics-dashboard-2.onrender.com/api/v1/user/login",
+        "https://pgagi-dashboard.onrender.com/api/v1/user/login",
         values
       );
       window.location.reload();
